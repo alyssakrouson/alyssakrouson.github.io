@@ -162,6 +162,7 @@ body {
     .content img {
         max-width: 90%;
         height: auto;
+        padding-top: 8px;
     }
     .content embed {
         max-width: 90%;
