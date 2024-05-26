@@ -1,5 +1,5 @@
 //console greeting
-var consoleMessage = "Welcome to my website!";
+var consoleMessage = "Welcome to my Website!";
 console.log(consoleMessage)
 
 //Opening greeting
@@ -21,7 +21,10 @@ function getGreeting() {
     greeting = 'Welcome!';
     }
     return greeting;
+    console.log(greeting)
 }
+var elTime = document.getElementById('greeting');
+elTime.textContent = getGreeting();
 
 //alert
 function sendAlert() {
