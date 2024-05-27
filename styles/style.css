@@ -64,7 +64,6 @@ body {
 .content p {
     font-family: Raleway;
     font-size: 20px;
-
 }
 
 .content h2 {
@@ -74,7 +73,6 @@ body {
 .content a {
     text-decoration: none;
     color: rgb(0, 34, 255);
-    margin-left: 15px;
 }
 .content a:hover {
     color: rgb(31, 16, 145);
