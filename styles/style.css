@@ -29,10 +29,7 @@ body {
 
 }
 .navbar a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
     text-decoration: none;
     margin-right: 3px;
 
@@ -119,12 +116,12 @@ body {
 
 /*Make side nav bar*/
 #side-column {
-    float: left;
+    float: right;
     width: 70%;
 }
 
-#float-right {
-    float: right;
+#float-left {
+    float: left;
     font-size: 18px;
     width: 14%;
 }
@@ -150,7 +147,7 @@ body {
         float: none;
         display: block;
         text-align: center;
-        padding: 3px;
+        padding: 5px;
         margin: 6px;
     }
     .content {
@@ -168,6 +165,11 @@ body {
         max-width: 90%;
         height: 600px;
     }
+    .textbox{
+        padding-left: 5px;
+        padding-right: 5px;
+    
+    }
     .float-right {
         float: none;
         display: block;
@@ -180,7 +182,7 @@ body {
         height: auto;
         font-size: 24px;
     }
-    #float-right {
+    #float-left {
         float: none;
         width: 75%;
         height: auto;
