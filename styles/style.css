@@ -117,18 +117,20 @@ body {
 
 }
 
-/*Put the two games side by side*/
-#game {
+/*Make side nav bar*/
+#side-column {
     float: left;
-    width: 42%;
-    height: 500px;
-    margin-right: 15px;
+    width: 70%;
 }
-#right-game {
+
+#float-right {
     float: right;
-    width: 42%;
-    height: 500px;
-    text-align: center;
+    font-size: 18px;
+    width: 14%;
+}
+#sideNav {
+    font-size: 18px;
+    line-height: 15px;
 }
 
 
@@ -166,19 +168,19 @@ body {
         max-width: 90%;
         height: 600px;
     }
-    #float-right {
+    .float-right {
         float: none;
         display: block;
         text-align: left;
         width: 90%;
     }
-    #game {
+    #side-column {
         float: none;
         width: 75%;
         height: auto;
         font-size: 24px;
     }
-    #right-game {
+    #float-right {
         float: none;
         width: 75%;
         height: auto;
