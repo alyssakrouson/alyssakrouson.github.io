@@ -115,7 +115,7 @@ body {
 }
 
 /*Make side nav bar*/
-#side-column {
+#main {
     float: right;
     width: 71%;
 }
@@ -186,7 +186,7 @@ body {
         text-align: left;
         width: 90%;
     }
-    #side-column {
+    .main {
         float: none;
         width: 75%;
         height: auto;
