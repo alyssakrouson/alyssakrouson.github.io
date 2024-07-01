@@ -1,20 +1,30 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color:rgb(201, 255, 253);
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     margin: 30px 30px 30px 30px;
 }
 
 .header {
     background-color:rgb(246, 255, 255);
-    border-radius: 8px;
+    border-radius: 4px;
     padding: 30px;
     overflow: hidden;
     color: black;
     font-family: Raleway;
     font-size: 18px;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
-.header h1{
-    padding-bottom: 10px;
-}
+
 #name {
     font-family: Caveat;
     font-size: 42px;
@@ -25,13 +35,17 @@ body {
     font-size: 18px;
     font-family: Raleway;
     color: black;
-    float: left;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 
 }
 .navbar a {
     padding: 10px;
     text-decoration: none;
-    margin-right: 3px;
+    margin-right: 8px;
 
     background-color: rgb(175, 175, 175);
     color: rgb(48, 48, 48);
@@ -46,7 +60,7 @@ body {
 /*Main content*/
 .content {
     background-color: rgb(246, 255, 255);
-    border-radius: 8px;
+    border-radius: 4px;
     padding: 40px;
     display:block;
     float: none;
