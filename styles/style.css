@@ -185,14 +185,17 @@ body {
     }
     .main {
         float: none;
-        width: 75%;
+        width: 100%;
         height: auto;
         font-size: 24px;
     }
-    #float-left {
+    .side-bar {
         float: none;
-        width: 75%;
+        width: 100%;
         height: auto;
+    }
+    .side-bar .content .content_wrapper div {
+        width: 100%;
         font-size: 24px;
         text-align: center;
     }
