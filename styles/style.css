@@ -45,10 +45,6 @@ body {
 
 /*Main content*/
 .content {
-    font-family: Raleway;
-    font-size: 20px;
-    color: black;
-
     background-color: rgb(246, 255, 255);
     border-radius: 8px;
     padding: 40px;
@@ -56,6 +52,9 @@ body {
     float: none;
     overflow: hidden;
     margin-bottom: 20px;
+    font-family: Raleway;
+    font-size: 20px;
+    color: black;
 }
 
 .content p {
@@ -111,23 +110,21 @@ body {
 .textbox {
     padding-left: 20px;
     padding-right: 20px;
-
 }
 
 /*Make side nav bar*/
-#main {
+.main {
     float: right;
-    width: 71%;
+    width: 77%;
 }
-
-#float-left {
+.side-bar {
     float: left;
-    font-size: 18px;
-    width: 14%;
+    width: 21%;
 }
-#sideNav {
+.side-bar .content .content_wrapper div {
     font-size: 18px;
-    line-height: 15px;
+    line-height: 25px;
+    width: 100%;
 }
 
 
