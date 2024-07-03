@@ -216,6 +216,10 @@ body {
         max-width: 75%;
         height: auto;
         padding-top: 8px;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     .content embed {
         max-width: 90%;
@@ -237,6 +241,7 @@ body {
         float: none;
         width: 100%;
         height: auto;
+        
     }
     .side-bar .content div {
         width: 100%;
