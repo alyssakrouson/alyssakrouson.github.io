@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var path = window.location.pathname;
     var page = path.split("/").pop();
 
-    if (page == 'index.html') {
+    if (page == 'index.html' || page == '') {
         buttonColor = document.querySelectorAll('.navbar a');
         buttonColor[0].style.backgroundColor = 'white';
         buttonColor[0].style.color = 'black';
