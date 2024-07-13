@@ -10,6 +10,7 @@ body {
     margin: 30px 30px 30px 30px;
 }
 
+/*Icons in top right*/
 .icons {
     margin-top: -12px;
     margin-right: -12px;
@@ -110,6 +111,7 @@ body {
 .content img {
     margin-right: 20px;  
     margin-left: 10px; 
+    border-radius: 3px;
 }
 
 /*Anything to center/left/right*/
